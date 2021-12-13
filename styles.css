@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./imágenes/Rcdk9AB9i.jpg);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+h1#Titulo{
+
+    color: white;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 5%;
+    display: flex;
+    white-space: nowrap;
+}
+
+h1#Titulo2{
+    color: white;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-left: 35.7%;
+    margin-bottom: 2%;
+    display: flex;
+    white-space: nowrap;
+    
+}
+
+nav#info{
+   font-size: 150%; 
+   white-space: nowrap;
+   margin-top: 5%;
+   margin-left: 33px;
+}
+
+span{
+    color: white;
+}
+
+h1#header{
+    
+    color: white;
+    font-size: 50px;
+    margin-top: 3%;
+}
+
+.descripcion{
+    
+    color: white;
+    font-size: 210%;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.info-contacto{
+    color: white;
+    font-size: 25px;
+    margin-left: 35.7%;
+    margin-right: 20%;
+    text-align: left;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: rgb(170, 113, 236);
+}
+
+a:hover{
+    color: rgb(0, 195, 255);
+}
+
+a:link, a:visited, a:hover{
+    text-decoration: none;
+}
+
+
+.autor-image{    
+    
+    display: flex;
+    width: 140px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 7px 3px rgba(0, 0, 0, 0.575);
+}
+
+.principal{
+    
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 540px;
+}
+
+.imagenes-referencia{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 3px 40px 10px 3px;
+    grid-column-gap: 5%;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.imageone{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.pareja{
+    width: 20%;
+}
+
+#juntos{
+    color: white;
+    display: flex;
+    font-style: oblique;
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 85%;
+}
+
+.imagetwo{
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+.cat{
+
+    display: flex;
+    width: 100%;
+    
+}
+
+#banner{
+    color: white;
+    display: flex;
+    font-style: oblique;
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 1%;
+}
+
+.yt{
+    width: 25%;
+}
+
+.home{
+    width: 140px;
+}
+
+
+.campos{
+    display: flex;
+    margin-left: 35.8%;
+}
+
+.identificador1{
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.campo1{
+    margin-left: 720px;
+}
+
+.campo2{
+    margin-left: 315px;
+}
+
+#Nombre{
+    margin-right: 2%;
+    height: 40px;
+    width: 387px;
+}
+
+#email{
+    height: 40px;
+    width: 387px;
+}
+
+.campos2{
+
+    display: flex;
+    align-items: flex-start;
+    margin-left: 35.8%;
+}
+
+.identificador2{
+    
+    display: flex;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 720px;
+}
+
+#TemaDeConsulta{   
+width: 799px;
+height: 40px;
+}
+
+.campos3{
+    display: flex;
+    margin-left: 35.8%;
+    margin-top: -10px;
+}
+
+.identificador3{
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    margin-left: 720px;
+}
+
+#Descripcion{
+    width: 799px;
+    height: 150px;
+}
+
+.boton{
+    display: flex;
+    margin-left: 721.5px;
+    margin-top: 30px;
+}
+
+
+@media only screen and (min-width:768px){
+    
+}
