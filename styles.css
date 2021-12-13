@@ -267,7 +267,7 @@ height: 40px;
     h1#Titulo{
 
         color: white;
-        font-size: 25px;
+        font-size: 22px;
         margin-left: 20px;
         margin-bottom: 2%;
         display: flex;
@@ -276,7 +276,7 @@ height: 40px;
 
     nav#info{
         display: flex;
-        font-size: 100%; 
+        font-size: 80%; 
         white-space: nowrap;
         margin-left: 20px;
         margin-top: 5%;
@@ -290,13 +290,13 @@ height: 40px;
              
         color: white;
         font-size: 25px;
-        margin-top: 3%;
+        margin-top: 5%;
         }
          
     .descripcion{
              
         color: white;
-        font-size: 90%;
+        font-size: 150%;
         text-align: center;
         margin-top: 20px;
         margin-left: 10%;
@@ -309,18 +309,20 @@ height: 40px;
     
     .pareja{
         display: flex;
-        margin-right: 150px;
-        margin-top: 20px;
+        margin-right: 120px;
+        width: 120px;
+        margin-top: 30px;
        }
         
     #juntos{
         display: flex;
-        margin-left: 155px;
+        margin-left: 145px;
         font-size: 12px;
     }
         
     .cat{
-       margin-left: 150px;
+       margin-left: 120px;
+       width: 130px;
     }
         
     #banner{
