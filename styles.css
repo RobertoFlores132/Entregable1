@@ -23,6 +23,12 @@ h1#Titulo{
     white-space: nowrap;
     }
 
+#Titulo2{
+    display: flex;
+    color: white;
+    margin-left: 717px;
+    margin-top: 50px;
+}
 
 nav#info{
    font-size: 150%; 
@@ -55,6 +61,7 @@ h1#header{
 .info-contacto{
     color: white;
     font-size: 25px;
+    margin-top: 50px;
     margin-left: 35.7%;
     margin-right: 20%;
     text-align: left;
